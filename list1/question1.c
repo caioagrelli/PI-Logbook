@@ -18,76 +18,76 @@ int main() {
     printf("Amor: %d%% ", love);
 
     if (love < 20) {
-        printf("Pessimo dia para se apaixonar. ");
+        printf("Pessimo dia para se apaixonar.");
     }
     else if (love >= 20 && love <= 40) {
-        printf("Melhor manter o coracao <3 longe de perigo. ");
+        printf("Melhor manter o coracao <3 longe de perigo.");
     }
     else if (love >= 41 && love <= 69) {
-        printf("Se o papo e as ideias baterem, esta liberado pensar em algo. ");
+        printf("Se o papo e as ideias baterem, esta liberado pensar em algo.");
     }
     else if (love >= 70 && love <= 80) {
-        printf("Saia com o coracao aberto, mas lembre, nem toda troca de olhar em onibus e sinal de romance. ");
+        printf("Saia com o coracao aberto, mas lembre, nem toda troca de olhar em onibus e sinal de romance.");
     }
     else {
-        printf("Um dia deslumbrantemente lindo para amar. Ps: Cuidado com a intensidade. ");
+        printf("Um dia deslumbrantemente lindo para amar. Ps: Cuidado com a intensidade.");
     }
     
     //luck
     printf("\nSorte: %d%% ", luck);
 
     if (luck < 30) {
-        printf("Nem jogue moedas pra cima hoje. ");
+        printf("Nem jogue moedas pra cima hoje.");
     }
     else if (luck >= 30 && luck <= 50) {
-        printf("Melhor nao arriscar. ");
+        printf("Melhor nao arriscar.");
     }
     else if (luck >= 51 && luck <= 79) {
-        printf("Por sua conta em risco. ");
+        printf("Por sua conta em risco.");
     }
     else if (luck >= 80 && luck <= 90) {
-        printf("Hoje vale a pena arriscar. ");
+        printf("Hoje vale a pena arriscar.");
     }
     else {
-        printf("Nao tenha medo de virar cartas hoje. ");
+        printf("Nao tenha medo de virar cartas hoje.");
     }
     
-    printf("Sem tigrinho nem jogos de azar, por favor!");
+    printf(" Sem tigrinho nem jogos de azar, por favor!");
 
     //work
     printf("\nTrabalho: %d%% ", work);
 
     if (work < 40) {
-        printf("Hoje nao sera um dia tao proveitoso, keep calm e faca o basico. ");
+        printf("Hoje nao sera um dia tao proveitoso, keep calm e faca o basico.");
     }
     else if (work >= 40 && work <= 50) {
-        printf("Segura a emocao, nao xinga ninguem, nao esquece de beber agua. ");
+        printf("Segura a emocao, nao xinga ninguem, nao esquece de beber agua.");
     }
     else if (work >= 51 && work <= 69) {
-        printf("Um dia proveitoso com certeza, leve sua simpatia consigo. ");
+        printf("Um dia proveitoso com certeza, leve sua simpatia consigo.");
     }
     else if (work >= 70 && work <= 84) {
-        printf("Boas vibracoes hoje, chances podem estar ao seu redor. ");
+        printf("Boas vibracoes hoje, chances podem estar ao seu redor.");
     }
     else {
-        printf("Use do maximo de networking possível hoje, dia bom para negocios. ");
+        printf("Use do maximo de networking poss�vel hoje, dia bom para negocios.");
     }
 
     //color
     printf("\nCor: ");
 
     switch (color) {
-        case 0: printf("Cinza. "); break;
-        case 1: printf("Vermelho. "); break;    
-        case 2: printf("Laranja. "); break;
-        case 3: printf("Amarelo. "); break; 
-        case 4: printf("Verde. "); break;
-        case 5: printf("Azul. "); break;
-        case 6: printf("Roxo. "); break;
-        case 7: printf("Marrom. "); break;
-        case 8: printf("Rosa. "); break;
-        case 9: printf("Preto. "); break;
-        case 10: printf("Branco. "); break;
+        case 0: printf("Cinza."); break;
+        case 1: printf("Vermelho."); break;    
+        case 2: printf("Laranja."); break;
+        case 3: printf("Amarelo."); break; 
+        case 4: printf("Verde."); break;
+        case 5: printf("Azul."); break;
+        case 6: printf("Roxo."); break;
+        case 7: printf("Marrom."); break;
+        case 8: printf("Rosa."); break;
+        case 9: printf("Preto."); break;
+        case 10: printf("Branco."); break;
     }
 
     return 0;

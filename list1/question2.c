@@ -1,32 +1,46 @@
 #include <stdio.h>
 
 int main() {
+
     long long N, A, B;
-    long long amount, sa, sb, sab, response;
-    long long qa, qb, qab;
+    long long total, somaA, somaB, somaAB, resposta;
+    long long qtdA, qtdB, qtdAB;
+    long long mmc;
 
     scanf("%lld", &N);
     scanf("%lld %lld", &A, &B);
 
-    amount = N * (N + 1) / 2;
+    // soma de 1 ate N
+    total = N * (N + 1) / 2;
 
-    qa = N / A;
-    qb = N / B;
-    qab = N / (A * B);
+    // multiplos de A
+    qtdA = N / A;
+    somaA = A * qtdA * (qtdA + 1) / 2;
 
-    sa = A * qa * (qa + 1) / 2;
-    sb = B * qb * (qb + 1) / 2;
-    sab = (A * B) * qab * (qab + 1) / 2;
+    // multiplos de B
+    qtdB = N / B;
+    somaB = B * qtdB * (qtdB + 1) / 2;
 
-    response = amount - sa - sb + sab;
-
-    printf("%lld\n", response);
-
-    if (response % 2 == 0) {
-        printf("Lá ele!!!\n");
+    // mmc (como A e B sao primos)
+    if (A == B) {
+        mmc = A;
     } else {
-        printf("Opa xupenio AULAS...\n");
+        mmc = A * B;
+    }
+
+    qtdAB = N / mmc;
+    somaAB = mmc * qtdAB * (qtdAB + 1) / 2;
+
+    resposta = total - somaA - somaB + somaAB;
+
+    printf("%lld\n", resposta);
+
+    if (resposta % 2 == 0) {
+        printf("Lá ele!!!");
+    }
+    else {
+        printf("Opa xupenio AULAS...");
     }
 
     return 0;
-} 
+}
