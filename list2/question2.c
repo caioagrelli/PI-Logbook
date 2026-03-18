@@ -9,21 +9,21 @@ int main() {
 
     for (int i = n; i < k; i++) {
         int x = i;
-        int cont = 0;
-        int valido = 1;
+        int cont = 0; // numero que caem no msm caso, o q no caso 
+        int valido = 1; // se o numero nao for valido é 0
 
-        if (x == 0) {
+        if (x == 0) { // 0 nao é considerado um numero primo e ia dar pau na regra
             valido = 0;
-        } else {
-            while (x % 2 == 0 && x > 0) {
+        } else { // 
+            while (x % 2 == 0 && x > 0) { // loop pra remover todos os 2, ja que 2 e o unico primo par 
                 x /= 2;
             }
 
-            for (int d = 3; d * d <= x; d += 2) {
+            for (int d = 3; d * d <= x; d += 2) { // o resultado da divisao (ou n por dois)
                 int vezes = 0;
 
-                while (x % d == 0) {
-                    x /= d;
+                while (x % d == 0) { // verificar os primos 
+                    x /= d; // dividir 
                     vezes++;
                 }
 
