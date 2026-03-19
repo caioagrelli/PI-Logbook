@@ -45,3 +45,4 @@ Lista concluída com mais esforço do que a anterior, mas também com mais apren
 ---
 
 *CIn/UFPE — Programação Imperativa, 2026*
+*Feito por Caio Agrelli — caarr@cin.ufpe.br*
