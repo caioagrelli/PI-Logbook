@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Programação Imperativa](https://img.shields.io/badge/Programação_Imperativa-C-blue?style=for-the-badge)
+![Programação Imperativa](https://img.shields.io/badge/Programação_Imperativa-CIN005-blue?style=for-the-badge)
 ![UFPE](https://img.shields.io/badge/UFPE-CIn-red?style=for-the-badge)
 ![Linguagem](https://img.shields.io/badge/linguagem-C-lightgrey?style=for-the-badge)
 
