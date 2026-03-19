@@ -28,6 +28,17 @@ Utilizei IA como ferramenta de **aprendizado**, não como atalho. As consultas f
 
 ---
 
+## 🗂️ Questões
+
+| Questão | Arquivo |
+|---------|---------|
+| 1 | [`q1.c`](questions/q1.c) |
+| 2 | [`q2.c`](questions/q2.c) |
+| 3 | [`q3.c`](questions/q3.c) |
+| 4 | [`q4.c`](questions/q4.c) |
+
+---
+
 ## ✅ Conclusão
 
 Lista concluída sem dificuldades. O principal ganho foi no refinamento do código — escrever de forma mais limpa e seguindo boas práticas, não apenas fazer funcionar.
