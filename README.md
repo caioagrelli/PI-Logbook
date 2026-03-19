@@ -24,9 +24,9 @@ Este repositório funciona como um **diário de bordo** da disciplina de **Progr
 ```bash
 PI-Logbook/
 ├── list1/                  # Foi separado por listas
-│   ├── question1/          # Dentro das litas têm pastas com as questões
-│   │   ├── code.c          # O Código
-│   │   └── challenge.md    # A questão proposta
+│   ├── questions/          # Dentro das litas têm pastas com as questões
+│   │   ├── q1.c            # Código das questões da lista
+│   │   ├── q2.c
 │   └── logbook.md          # O diário de Bordo de cada Lista
 ├── listN/                  # Novas listas serão adicionadas
 └── LICENSE
