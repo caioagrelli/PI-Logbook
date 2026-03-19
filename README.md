@@ -38,9 +38,9 @@ PI-Logbook/
 
 | Lista | Tema | Logbook | Questões |
 |-------|------|---------|----------|
-| List 1 | Condicionais — `if` e `else` | [`logbook.md`](list1/logbook1.md) | [`questões`](list1/) |
-| List 2 | Laços de repetição | [`logbook.md`](list2/logbook2.md) | [`questões`](list2/) |
-| List 3 | Arrays | [`logbook.md`](list3/logbook3.md) | [`questões`](list3/) |
+| List 1 | Condicionais — `if` e `else` | [`logbook.md`](list1/logbook1.md) | [`questões`](list1/questions) |
+| List 2 | Laços de repetição | [`logbook.md`](list2/logbook2.md) | [`questões`](list2/questions) |
+| List 3 | Arrays | [`logbook.md`](list3/logbook3.md) | [`questões`](list3/questions) |
 | ... | Novas listas em breve | — | — |
 ---
 
