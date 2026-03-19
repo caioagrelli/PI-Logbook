@@ -45,3 +45,4 @@ Lista concluída sem dificuldades. O principal ganho foi no refinamento do códi
 ---
 
 *CIn/UFPE — Programação Imperativa, 2026*
+*Feito por Caio Agrelli — caarr@cin.ufpe.br*
