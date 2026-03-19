@@ -62,3 +62,5 @@ PI-Logbook/
 | Instituição | Centro de Informática – UFPE (CIn) |
 | Linguagem   | C                                  |
 | Ano         | 2026                               |
+
+*Feito por Caio Agrelli — caarr@cin.ufpe.br*
