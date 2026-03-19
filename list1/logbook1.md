@@ -4,13 +4,12 @@
 
 ## ⭐ Dificuldade Geral
 
-★★★★★ → ★☆☆☆☆
 
 > Baixa dificuldade. Lógica familiar a linguagens em que eu já uso.
 
 ---
 
-## 📝 Relato
+## 📝 Relato ★★★★★
 
 Os exercícios desta lista consegui concluir com bastante tranquilidade. A lógica por trás já era familiar, pois é muito semelhante à de outras linguagens que já utilizei anteriormente — a estrutura muda pouco, o raciocínio é praticamente o mesmo.
 
