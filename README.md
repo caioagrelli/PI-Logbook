@@ -4,7 +4,6 @@
 
 ![Programação Imperativa](https://img.shields.io/badge/Programação_Imperativa-C-blue?style=for-the-badge)
 ![UFPE](https://img.shields.io/badge/UFPE-CIn-red?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-em_andamento-yellow?style=for-the-badge)
 ![Linguagem](https://img.shields.io/badge/linguagem-C-lightgrey?style=for-the-badge)
 
 **Repositório de exercícios e atividades da disciplina de Programação Imperativa — CIn/UFPE (2026)**  
