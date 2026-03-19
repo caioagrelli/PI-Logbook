@@ -14,22 +14,21 @@
 
 ---
 
-## 📌 Sobre o Projeto
+## 📌 Sobre a Cadeira
 
-Este repositório funciona como um **diário de bordo** da disciplina de **Programação Imperativa**, reunindo listas de exercícios desenvolvidas em **linguagem C**. Cada lista aborda um tema específico da programação imperativa e está organizada em sua própria pasta, contendo o código-fonte e um diário de bordo com anotações sobre o aprendizado.
+Este repositório funciona como um **diário de bordo** da disciplina de **Programação Imperativa**, reunindo listas de exercícios desenvolvidas em **linguagem C**. Cada lista aborda um tema específico e está organizada em sua própria pasta, contendo as questões em C e um logbook com anotações sobre o aprendizado.
 
 ---
 
 ## 📁 Estrutura do Projeto
 ```bash
 PI-Logbook/
-├── list1/
-│   ├── code/               # Exercícios em C
-│   └── diario_de_bordo.md  # Anotações e aprendizados da lista
-├── list2/
-│   ├── code/               # Exercícios em C
-│   └── diario_de_bordo.md  # Anotações e aprendizados da lista
-├── listN/                  # Novas listas serão adicionadas aqui
+├── list1/                  # Foi separado por listas
+│   ├── question1/          # Dentro das litas têm pastas com as questões
+│   │   ├── code.c          # O Código
+│   │   └── challenge.md    # A questão proposta
+│   └── logbook.md          # O diário de Bordo de cada Lista
+├── listN/                  # Novas listas serão adicionadas
 └── LICENSE
 ```
 
@@ -37,13 +36,12 @@ PI-Logbook/
 
 ## 📚 Listas
 
-| Lista | Tema | Código | Diário de Bordo |
-|-------|------|--------|-----------------|
-| List 1 | Condicionais — `if` e `else` | [`code/`](list1/code) | [`diario_de_bordo.md`](list1/diario_de_bordo.md) |
-| List 2 | Laços de repetição | [`code/`](list2/code) | [`diario_de_bordo.md`](list2/diario_de_bordo.md) |
-| List 3 | Arrays | [`code/`](list3/code) | [`diario_de_bordo.md`](list3/diario_de_bordo.md) |
+| Lista | Tema | Logbook | Questões |
+|-------|------|---------|----------|
+| List 1 | Condicionais — `if` e `else` | [`logbook.md`](list1/logbook1.md) | [`questões`](list1/) |
+| List 2 | Laços de repetição | [`logbook.md`](list2/logbook2.md) | [`questões`](list2/) |
+| List 3 | Arrays | [`logbook.md`](list3/logbook3.md) | [`questões`](list3/) |
 | ... | Novas listas em breve | — | — |
-
 ---
 
 ## 🧠 Conceitos Abordados
@@ -57,10 +55,10 @@ PI-Logbook/
 
 ## 🏫 Contexto Acadêmico
 
-| Campo       | Informação                                 |
-|-------------|--------------------------------------------|
-| Disciplina  | Programação Imperativa                     |
-| Professor   | Alexandre Cabral Mora                      |
-| Instituição | Centro de Informática – UFPE (CIn)         |
-| Linguagem   | C                                          |
-| Ano         | 2026                
+| Campo       | Informação                         |
+|-------------|------------------------------------|
+| Disciplina  | Programação Imperativa             |
+| Professor   | Alexandre Cabral Mora              |
+| Instituição | Centro de Informática – UFPE (CIn) |
+| Linguagem   | C                                  |
+| Ano         | 2026                               |
