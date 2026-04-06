@@ -40,9 +40,9 @@ int main () {
         for (int j = best_init; j <= end_sequence; j++) {
             if (best_order != 1) {  // se n teve sequencia n printa
                 if (j == best_init){
-                    printf("%d", numbers[j]); // para o inicial n ter espaços 
+                    printf("%d", numbers[j]); // para o inicial n ter espa?os 
                 } else {
-                    printf(" %d", numbers[j]);  // para o final ter espaços
+                    printf(" %d", numbers[j]);  // para o final ter espa?os
                 }
             }
         }
